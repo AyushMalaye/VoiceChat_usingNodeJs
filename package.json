@@ -4,9 +4,10 @@
   "description": "voiceBot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "ayush",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",
@@ -16,5 +17,14 @@
     "socket.io": "^4.5.1",
     "socket.io-client": "^4.5.1",
     "uuid": "^8.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushMalaye/VoiceChat_usingNodeJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AyushMalaye/VoiceChat_usingNodeJs/issues"
+  },
+  "homepage": "https://github.com/AyushMalaye/VoiceChat_usingNodeJs#readme"
 }
